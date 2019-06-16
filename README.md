@@ -1,11 +1,11 @@
-# Object-and-Dog-Breed-Classifier
+#**Object-and-Dog-Breed-Classifier**
 
-Requirements:
-Software - 
+##**Requirements**:
+###Software - 
   PyCharm
   Pyhton
   Anaconda
-Packages - 
+###Packages - 
   Numpy
   Tensorflow
   Kivy
