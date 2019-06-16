@@ -1,7 +1,6 @@
 # Object-and-Dog-Breed-Classifier
 
 Requirements:
-
 Software - 
   PyCharm
   Pyhton
@@ -30,3 +29,5 @@ This is only the portion of the projct that runs/tests the models/program.
 The parts that aren't prsent now but will be added in a later commit are - 
 Data Preprocessing
 Model training for both models
+
+:smile:
