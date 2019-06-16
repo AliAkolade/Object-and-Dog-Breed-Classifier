@@ -26,9 +26,9 @@ aliakolade@gmail.com
 Phone/WhatsApp - +2349032942619
 
 ### **P.S** - 
-This is only the portion of the projct that runs/tests the models/program.
-The parts that aren't prsent now but will be added in a later commit are - 
-Data Preprocessing
-Model training for both models
+This is only the portion of the projct that tests the models.
+The parts that aren't present now but will be added in a later commit are - 
+* ***Data Preprocessing***
+* ***Model training for both models***
 
 :smile:
