@@ -1,14 +1,34 @@
 <MyBox>:
     id: id_
+    url_entry : image_url
     ans: answer
     orientation: "vertical"
     padding: 20
     space: 10
 
     Button:
-        text: "Select Image"
+        text: "Select Image for Classification"
         font_size: 32
         on_press: id_.identify()
+    BoxLayout:
+        orientation: "horizontal"
+        spacing: 10
+        padding: 10
+        size_hint: 1, .3
+
+        Label:
+            text: "Or Input URL - "
+            size_hint: .4, 1
+
+        TextInput:
+            id: image_url
+            multiline: False
+            font_size: 32
+
+        Button:
+            text: "Classify"
+            on_press: id_.identify_url(image_url)
+            size_hint: .3, 1
     Label:
         id: answer
         text: ""
