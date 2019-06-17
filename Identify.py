@@ -2,6 +2,7 @@ import numpy as np
 from keras.models import load_model
 from kivy.app import App
 from kivy.uix.boxlayout import BoxLayout
+import tkinter as tk
 from tkinter import filedialog
 from PIL import Image
 from io import BytesIO
@@ -17,6 +18,7 @@ class MyBox(BoxLayout):
 
     def identify(self):
         labels = ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+        tk.Tk().withdraw()
         input_path = filedialog.askopenfilename()
         input_image = Image.open(input_path).resize((32, 32), resample=Image.LANCZOS)
         image_array = np.array(input_image).astype('float32')
