@@ -15,7 +15,7 @@
 ## **About**
 This a combination of two machine learning models.
 
-The first identifies an objetc from 10 categories (Airplane, Automobile, Bird, Cat, Deer, Dog, Frog, Horse, Ship & Truck). This is done offline using the model saved in 'Object_Model.h5'
+The first identifies an object from 10 categories (Airplane, Automobile, Bird, Cat, Deer, Dog, Frog, Horse, Ship & Truck). This is done offline using the model saved in 'Object_Model.h5'
 
 The second identifies the breed of the dog if the result from the initial classification is Dog. This is done using the Nanonets API due to the number of breed types(125) that the model can recognize.
 
